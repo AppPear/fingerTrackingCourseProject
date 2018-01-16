@@ -31,3 +31,9 @@ make
 ```
 ./darknet detect cfg-path-relative-to-root weights-path-relative-to-root image-path-relative-to-root
 ```
+
+Example results:
+
+![Single finger](/example1.jpg)
+
+![Multiple finger](/example2.jpg)
