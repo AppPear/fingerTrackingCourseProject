@@ -1,20 +1,20 @@
 # fingerTrackingCourseProject
 PPKE ITK Course project for neural networks class
 
-My project was to create a Vision application for neural networks. The use for this in my case is providing a more natural input for Augmented Reality.
-I set a goal, tracking the user's finger in real time, without a teaching process.
-I had same requirements as it had to run on a mobile device along with AR processes, also the weights file should be as small as possible.
+Our project was to create a Vision application for neural networks. The use for this in my case is providing a more natural input for Augmented Reality.
+We set a goal, tracking the user's finger in real time, without a teaching process.
+We had same requirements as it had to run on a mobile device along with AR processes, also the weights file should be as small as possible.
 
-I created my own dataset as I didn't find any up for this task. Then I trained it on YOLOv2. I used pre-trained weights on VOC dataset. I used yolo-voc.2.0.cfg as the architecture. I was able to achieve pretty good results. I trained it till 8000 iteration. I got 0.6 average error, and from a test batch it recognised 100% of the objects.
+We created our own dataset as we didn't find any up for this task. It was trained on YOLOv2. We used pre-trained weights on VOC dataset and also used yolo-voc.2.0.cfg as the architecture. We was able to achieve pretty good results. We trained it till 8000 iteration. We got 0.6 average error, and from a test batch it recognised 100% of the objects.
 
 The only drawback the weights' size was, around 500 Mb.
 
-Second time I trained in tiny-yolo (tiny-yolo-voc.cfg) architecture, with the same options described above.
-I got less accuracy, but with a weights size as little as 65 Mb.
-I was able to test it on a mobile device. I got around 15fps on average.
+Second time we trained in tiny-yolo (tiny-yolo-voc.cfg) architecture, with the same options described above.
+We got less accuracy, but with a weights size as little as 65 Mb.
+We was able to test it on a mobile device. I got around 15fps on average.
 
 
-To test my project:
+To test the project:
 
 1. clone and install yolo:
 ```
