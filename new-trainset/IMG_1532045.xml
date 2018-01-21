@@ -1,0 +1,26 @@
+<annotation>
+  <folder>new-trainset</folder>
+  <filename>IMG_1532045</filename>
+  <path>D:\@andris_local\Dropbox (Drops)\AR\teaching finger tracking\new-trainset\IMG_1532045.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>416</width>
+    <height>416</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>fingertip</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>278</xmin>
+      <ymin>140</ymin>
+      <xmax>359</xmax>
+      <ymax>223</ymax>
+    </bndbox>
+  </object>
+</annotation>
